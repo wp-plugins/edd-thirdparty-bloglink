@@ -14,9 +14,9 @@ Add extra data to your Easy Digital Downloads products! Indicate if the product 
 
 == Description ==
 
-This plugin requires [Easy Digital Downloads](http://wordpress.org/extend/plugins/easy-digital-downloads/). It allows you to add post meta data in Easy Digital Downloads to indicate a third party product and also a link for more information. Also, it adds a checkbox to indicate if the download is available in the WordPress plugin repository. 
+**This plugin requires [Easy Digital Downloads](http://wordpress.org/extend/plugins/easy-digital-downloads/). It allows you to add post meta data in Easy Digital Downloads to indicate a third party product and also a link for more information. Also, it adds a checkbox to indicate if the download is available in the WordPress plugin repository.** 
 
-*Please Note: This plugin doesn't really do anything on it's own. This plugin is for advanced users and does nothing on the front-end without writing your own custom code.* = This plugin is for advanced users and does nothing on the fron-end without custom code. =   
+***Please Note:** The plugin doesn't really do anything on it's own. It is for advanced users and does nothing on the front-end without writing your own custom code. **This plugin is for advanced users and does nothing on the fron-end without custom code.***   
 
 = Here is what it does do: =  
 
@@ -25,7 +25,7 @@ This plugin requires [Easy Digital Downloads](http://wordpress.org/extend/plugin
 3. Adds a URL field for you to add an external link to a blog or website for product details or more information.
 4. Stores this data in the download product's post_meta data for you to access and use in your custom code.
 
-**Example of how to call the data in your code:**
+= Example of how to call the data in your code: =
 
     if(get_post_meta( $post_id, 'edd_third_party', true )) {
 
@@ -45,20 +45,24 @@ This plugin requires [Easy Digital Downloads](http://wordpress.org/extend/plugin
         echo `<a href="' .$bloglink. '" target="_blank">Click for Details </a>`;
 
     }
-    
+
+For more examples and information visit the plugin's blog page: http://butlerconsulting.com/work/plugins/edd-thirdparty-bloglink/.
+   
 
 == Installation ==
+
+**How to istall the plugin:**
 
 1. Upload this plugin to the `/wp-content/plugins/` directory and unzip it, or simply upload the zip file within your WordPress installation.
 2. Activate the plugin through the 'Plugins' menu in WordPress. Or (within a multisite network) you may now Network Activate it. 
 3. Follow the instructions provided to use the code in your theme or `functions.php` file.
 
-OR you can just install it with WordPress by going to Plugins,then click Add New and type this plugin's name "EDD Third Party and Blog Link".
+Or, you can just install it with WordPress by going to Plugins, then click Add New and type in the plugin's name "EDD Third Party and Blog Link".
 
 
 == Frequently Asked Questions ==
 
-= How do I add this to my code? =
+**How do I add this to my code?**
 
 First, see examples provided under the description for starters, or visit the plugin's blog page: http://butlerconsulting.com/work/plugins/edd-thirdparty-bloglink/. 
 
@@ -77,10 +81,11 @@ The current version is 1.0 and represents the initial release.
 
 == Credits and Special Thanks ==
 
+
 Of course a big "shout out" must be given to Matt Mullenweg and the WordPress team for making the entire world possible! Also, of course, kudos to [Pippin Williamson](http://pippinsplugins.com) for the incredibly awesome [Easy Digital Downloads](http://wordpress.org/extend/plugins/easy-digital-downloads/) plugin - without which this simple plugin would be useless.  Finally, to Andrew Munro, [Sumobi](http://sumobi.com/) who's plugin [EDD Coming Soon](http://sumobi.com/shop/edd-coming-soon/) provided an easy to follow roadmap for creating mine :) Thanks all! 
 
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.0 =
 * Initial release August 18th 2014, Nothing to see here. These are not the droids we're looking for... move along.
