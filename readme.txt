@@ -25,24 +25,7 @@ This plugin requires [Easy Digital Downloads](http://wordpress.org/extend/plugin
 
 Example of how to call the data in your code:
 
-    if(get_post_meta( $post_id, 'edd_third_party', true )) {
-
-        echo 'This item is from a third party.' ;
-
-    }
     
-    if(get_post_meta( $post_id, 'edd_wp_plugin', true )) {
-
-        echo 'This item can be downloaded from WordPress.' ;
-
-    }
-    
-    if(get_post_meta( $post_id, 'edd_bloglink_url', true )) {
-
-        $bloglink = get_post_meta( $post_id, 'edd_bloglink_url', true );
-        echo `<a href="' .$bloglink. '" target="_blank">Click for Details </a>`;
-
-    }
     
 
 == Installation ==
