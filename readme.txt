@@ -56,7 +56,7 @@ OR you can just install it with WordPress by going to Plugins -> Add New -> and 
 
 == Frequently Asked Questions ==
 
-= How do I add this to my code =
+= How do I add this to my code? =
 
 See examples above for starters. If you really have to ask that, this plugin is probably not for you. This plugin was only designed to expand the dataset of Easy Digital Downloads via custom post meta fields and the accessed through custom coding in PHP. 
 
