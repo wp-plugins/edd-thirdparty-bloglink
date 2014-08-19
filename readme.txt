@@ -14,9 +14,9 @@ Add extra data to your Easy Digital Downloads products! Indicate if the product 
 
 == Description ==
 
-**This plugin requires [Easy Digital Downloads](http://wordpress.org/extend/plugins/easy-digital-downloads/). It allows you to add post meta data in Easy Digital Downloads to indicate a third party product and also a link for more information. Also, it adds a checkbox to indicate if the download is available in the WordPress plugin repository.** 
+**This plugin requires [Easy Digital Downloads](http://wordpress.org/extend/plugins/easy-digital-downloads/). It allows you to add post meta data in Easy Digital Downloads to indicate a third party product as well as a link for more information. Also, it adds a checkbox to indicate if the download is available in the WordPress plugin repository.** 
 
-***Please Note:** The plugin doesn't really do anything on it's own. It is for advanced users and does nothing on the front-end without writing your own custom code. **This plugin is for advanced users and does nothing on the fron-end without custom code.***   
+***Please Note:** The plugin doesn't really do anything on it's own. It is for advanced users and does nothing on the front-end without writing your own custom code.*   
 
 = Here is what it does do: =  
 
@@ -54,7 +54,7 @@ For more examples and information visit the plugin's blog page: http://butlercon
 **How to istall the plugin:**
 
 1. Upload this plugin to the `/wp-content/plugins/` directory and unzip it, or simply upload the zip file within your WordPress installation.
-2. Activate the plugin through the 'Plugins' menu in WordPress. Or (within a multisite network) you may now Network Activate it. 
+2. Activate the plugin through the 'Plugins' menu in WordPress. 
 3. Follow the instructions provided to use the code in your theme or `functions.php` file.
 
 Or, you can just install it with WordPress by going to Plugins, then click Add New and type in the plugin's name "EDD Third Party and Blog Link".
@@ -64,9 +64,9 @@ Or, you can just install it with WordPress by going to Plugins, then click Add N
 
 **How do I add this to my code?**
 
-First, see examples provided under the description for starters, or visit the plugin's blog page: http://butlerconsulting.com/work/plugins/edd-thirdparty-bloglink/. 
+First, see PHP code examples provided under the description, or visit the plugin's blog page: http://butlerconsulting.com/work/plugins/edd-thirdparty-bloglink/ for further details and examples. 
 
-Second, if you really have to ask that, this plugin is probably not for you. This plugin was only designed to expand the dataset of Easy Digital Downloads via custom post meta fields and the accessed through custom coding in PHP. 
+Second, if you really have to ask that question, the plugin is probably not for you. This plugin was designed to expand the dataset of Easy Digital Downloads via custom post meta fields and then accessed through custom code within your theme or `functions.php` file. 
 
 
 == Upgrade Notice ==
@@ -76,7 +76,7 @@ The current version is 1.0 and represents the initial release.
 
 == Screenshots ==
 
-1. A screen shot of the fields that this plugin adds.
+1. A screenshot of the fields that this plugin adds to the "Download Prices" post metabox.
 
 2. Example usage for code.  In this case, if "edd_third_party" returns true, I display the third-party badge. If "edd_wp_plugin" returns true, I add the "FREE Download" text and the WordPress FontAwesome icon to the button.
 
