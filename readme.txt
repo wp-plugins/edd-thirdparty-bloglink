@@ -78,6 +78,10 @@ The current version is 1.0 and represents the initial release.
 
 1. A screenshot of the fields that this plugin adds.
 
+2. Example usage for code.  In this case, if "edd_third_party" returns true, I display the third party badge and if "edd_wp_plugin" returns true I add the "FREE Download" and the WordPress FontAwesome icon to the button.
+
+3. Second example usage for code.  In this case, I am also using the free [Easy Digital Downloads - External Products](https://easydigitaldownloads.com/extensions/external-products/) plugin in conjunction with my own.  This enables me to have two links, one for the file download and one for the "View Details" link.
+
 
 == Credits and Special Thanks ==
 
