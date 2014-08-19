@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: EDD Third Party and Blog Link\n"
+"POT-Creation-Date: 2014-08-18 21:48-0600\n"
+"PO-Revision-Date: 2014-08-18 22:01-0600\n"
+"Last-Translator: Thomas S. Butler <tom@opportunex.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: edd-thirdparty-bloglink.php:52
+msgid "Blog Link URL:"
+msgstr "Blog Enlace URL:"
+
+#: edd-thirdparty-bloglink.php:57
+msgid "Blog Link URL (including http://) to provide more information."
+msgstr ""
+"Blog Enlace URL (incluyendo http: //) para proporcionar más información."
+
+#: edd-thirdparty-bloglink.php:62
+msgid "Indicate Third Party Product"
+msgstr "Indique Terceros Producto"
+
+#: edd-thirdparty-bloglink.php:67
+msgid "Downloaded from WordPress"
+msgstr "Descargado de WordPress"

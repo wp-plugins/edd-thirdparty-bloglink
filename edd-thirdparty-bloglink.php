@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: Easy Digital Downloads - Third Party and Blog Link
+Plugin Name: EDD Third Party and Blog Link
 Plugin URI: http://butlerconsulting.com/work/plugins/edd-thirdparty-bloglink/
 Description: Add adds a checkbox to indicate if the product is from a third party and an optional "Blog Link" (for product details/more information) to your Easy Digital Downloads products. Also adds a checkbox to indicate if the download is available in the WordPress plugin repository. Please Note: This plugin doesn't really do anything on it's own.  What does it do? It optionally adds three post meta fields that can be accessed in your custom code.
-Version: 1.0
+Version: 1.0.0
 Author: Thomas S. Butler
 Author URI: http://butlerconsulting.com
 Text Domain: edd-thirdparty-bloglink
@@ -37,7 +37,7 @@ Domain Path: /lang/
  * Adds checkbox and URL fields to the EDD Downloads meta box area
  *
  * @param integer $post_id
- * @since 1.0
+ * @since 1.0.0
  *
  */
 function edd_thirdparty_bloglink_field( $post_id ) {
@@ -75,7 +75,7 @@ add_action( 'edd_meta_box_fields', 'edd_thirdparty_bloglink_field', 90 );
 /**
  * Add the _edd_external_url field to the list of saved product fields
  *
- * @since  1.0
+ * @since  1.0.0
  *
  * @param  array $fields The default product fields list
  * @return array         The updated product fields list
@@ -95,7 +95,7 @@ add_filter( 'edd_metabox_fields_save', 'edd_thirdparty_bloglink_save' );
 /**
  * Sanitize metabox field to only accept URLs
  *
- * @since 1.0
+ * @since 1.0.0
 */
 function edd_thirdparty_bloglink_metabox_save( $new ) {
 
