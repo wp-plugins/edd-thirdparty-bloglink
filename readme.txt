@@ -47,6 +47,13 @@ Add extra data to your Easy Digital Downloads products! Indicate if the product 
     }
 
 For more examples and information visit the plugin's blog page: http://butlerconsulting.com/work/plugins/edd-thirdparty-bloglink/.
+
+
+= Translated Languages Available =
+
+I was having some fun after upgrading to the pro version of [Poedit](http://poedit.net/) so I attempted to add Spanish, German, French and Russian translations. I used Google translate and I'm curious to see how it turned out.  Please let me know! If you'd like to contribute a translation or report on a poor translation attempt, please let me know on the [support forums](http://wordpress.org/support/plugin/edd-thirdparty-bloglink/).
+
+* Otherwise, the plugin supports American English by Default... Also supports Canadian, British, Scottish, Irish, Australian and a few others (that's a joke)
    
 
 == Installation ==
