@@ -3,7 +3,7 @@
 Plugin Name: EDD Third Party and Blog Link
 Plugin URI: http://butlerconsulting.com/work/plugins/edd-thirdparty-bloglink/
 Description: Add adds a checkbox to indicate if the product is from a third party and an optional "Blog Link" (for product details/more information) to your Easy Digital Downloads products. Also adds a checkbox to indicate if the download is available in the WordPress plugin repository. Please Note: This plugin doesn't really do anything on it's own.  What does it do? It optionally adds three post meta fields that can be accessed in your custom code.
-Version: 1.0.1
+Version: 1.0.2
 Author: Thomas S. Butler
 Author URI: http://butlerconsulting.com
 Text Domain: edd-thirdparty-bloglink
